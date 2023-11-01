@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishali-Walekar-Portfolio-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f386151103.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <!--<p>SOFTWARE DEVELOPER</p>
+            <h1>Hi, I'm <span>Vaishali Walekar</span><br>From Maharashtra, India</h1> -->
+        </div>
+    </div>
+</div>
+<!-----------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Vaishali Walekar, a software developer with a B.Tech in Electronics and Telecommunication from Solapur University (2019-2022)<br><br>
+                   My expertise lies in Java, encompassing OOP concepts, arrays, exceptions, and multithreading. I'm also skilled in HTML5, CSS, and web development, mastering HTML tags and CSS models for responsive designs. <br><br>
+                   In the realm of databases, I excel in SQL, handling RDBMS, data types, and complex queries. <br><br>
+                   Additionally, I'm proficient in Python, adept at data types, loops, functions, OOP, and decorators. I'm dedicated to creating efficient, scalable software, and I'm an eager learner, staying updated with industry trends.
+                </p>
+                    <div class="tab-title">
+                        <p style="font-weight: bold; color: aqua; font-size: 30px;">Education</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology</span> <br>SKN Sinhgad College of Enginerring, Pandharpur<br>Percentage 83%</span><br>Completed in 2022</li>
+                            <li><span>Diploma</span><br>Fabtech Technical Campus, Sangola</span><br>Percentage 73%</span><br>Completed in 2019</li>
+                            <li><span>Secondary School Certification(SSC)</span><br>Shree Dadasaheb Jagtap Vidyalsya, Udaneadi</span><br>Percentage 80.20%</span><br>Completed in 2016</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------Interest----------------->
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="interests-list">
+            <div>
+                <i class="fab fa-java" style="color: #fff;"></i>
+                <h2>JAVA</h2>
+                <li>OOPS concept</li>
+                <li>Array</li>
+                <li>Class & Objects</li>
+                <li>Methods</li>
+                <li>Exception</li>
+                <li>Multithreading</li>
+                <li>Hibernate</li>
+                <li>JSP</li>
+                <li>Servlet</li>
+            </div>
+            <div>
+                <i class="fab fa-python" style="color: #fff;"></i>
+                <h2>PYTHON</h2>
+                <li>Data types & Variables</li>
+                <li>Operators & Expressions</li>
+                <li>Control Flow Statements</li>
+                <li>Data Structures & Algorithms(DSA)</li>
+                <li>Functions</li>
+                <li>Modules</li>
+                <li>OOPs</li>
+                <li>Exception Handling</li>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" style="color: #fff;"></i>
+                <h2>SQL</h2>
+                <li>RDBMS</li>
+                <li>Stored Procedures</li>
+                <li>Joins</li>
+                <li>Triggers</li>
+                <li>Normalization</li>
+                <li>Indexes</li>
+                <li>Views</li>
+                <li>CTEs</li>
+            </div>
+            <div>
+                <i class="fab fa-html5" style="color: #fff;"></i>
+                <h2>HTML5</h2>
+                <li>Tags</li>
+                <li>Web Pages</li>
+                <li>Forms</li>
+            </div>
+            <div>
+                <i class="fab fa-css3" style="color: #fff;"></i>
+                <h2>CSS3</h2>
+                <li>Bootstrap 5</li>
+                <li>TailwindCSS</li>
+                <li>Box Model</li>
+                <li>Flex Model</li>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!------------------------Projects-------------------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project1-calculator.jpg" alt="project1" style="max-height: 500px;">
+                <div class="image-caption">CALCULATOR</div>
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <p>A calculator is must have tool for user. It saves time when doing
+                        same simple math. HTML and CSS calculator is used to performing
+                        basic mathematical operation like addition, subtraction, multiplication,
+                        division. In this guide we will go through the process of building
+                        a calculator from scratch using HTML, CSS and JavaScript.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project2-doorlock.jpg" alt="project2" style="max-height: 500px;">
+                <div class="image-caption">PASSWORD BASED DOOR LOCK SYSTEM</div>
+                <div class="layer">
+                    <h3>PASSWORD BASED DOOR LOCK SYSTEM</h3>
+                    <p>This Device is a password based door lock system circuit
+                        designed using 8051 microcontroller. It is provided control
+                        the actuating the load. The main component in the
+                        circuit is 8051 controller. in this project 4*3 keypad is used
+                        to enter the password.
+                        <br>
+                        The password which is the entered is compared with
+                        predefined password. If the entered password password
+                        is correct then the system opens the door by rotating
+                        door motor and display the status of door on LCD .
+                        If the password is wrong then door is remain close
+                        and display "password is wrong "on LCD.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <a href="https://github.com/" class="btn">See more</a> -->
+    </div>
+</div>
+
+<!---------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-envelope"></i> vaishaliwalekar77787@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9764542670</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/vaishali-walekar-513709230"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/"><i class="fa-brands fa-hackerrank"></i></a>
+                <!--Resume-->
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2 download-button">
+                    <span class="button-text">Download Resume</span>
+                    <span class="arrow-icon">&#9660;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2023 vaishali walekar <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+  <!--   Code for side menu close after clicking on  some tabs-->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".fas.fa-bars");
+    const sideMenu = document.querySelector("nav ul");
+    const navLinks = document.querySelectorAll("nav ul li a");
+
+    // Toggle the side menu
+    menuToggle.addEventListener("click", function () {
+        sideMenu.style.right = "0";
+    });
+
+    // Close the side menu when a navigation link is clicked
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            sideMenu.style.right = "-200px"; // Close the side menu
+        });
+    });
+});
+
+</script>
+
+
+</body>
+</html>
